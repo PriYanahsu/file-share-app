@@ -1,4 +1,4 @@
-# File Sharing Application
+# File Sharing + Temprarory Storeage Application
 
 ## Overview
 The **File Sharing Application** is a web-based platform that allows users to securely upload, store, and share files with others. The app features authentication via **GitHub and Google**, enabling users to manage their files with ease. Uploaded files can be shared via generated links, ensuring seamless access and downloads.
