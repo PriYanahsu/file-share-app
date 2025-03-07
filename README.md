@@ -89,7 +89,7 @@ http://localhost:8080
 
 ## Additional Features
 - **Drag & Drop Upload**: Easily upload files by dragging them into the upload box.
-- **File Expiration**: Set expiry dates for shared links.
+- **File Expiration**: Within 24 hours file will be deleted from my code you can add to yourself also.
 - **Download Tracking**: Track who has accessed the shared file.
 - **Multiple File Formats**: Supports images, PDFs, documents, and more.
 - **User Dashboard**: View and manage all uploaded files in one place.
