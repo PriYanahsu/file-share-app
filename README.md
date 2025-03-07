@@ -1,8 +1,5 @@
 # File Sharing Application
 
-## Live Demo
-[Click here to access the live application](#)
-
 ## Overview
 The **File Sharing Application** is a web-based platform that allows users to securely upload, store, and share files with others. The app features authentication via **GitHub and Google**, enabling users to manage their files with ease. Uploaded files can be shared via generated links, ensuring seamless access and downloads.
 
@@ -16,7 +13,7 @@ The **File Sharing Application** is a web-based platform that allows users to se
 
 ## Technologies Used
 - **Backend**: Spring Boot (for handling API requests & storage management)
-- **Database**: MySQL / PostgreSQL (for storing user and file data)
+- **Database**: MySQL (for storing user and file data)
 - **Authentication**: OAuth (GitHub & Google login integration)
 - **API Requests**: REST APIs (for fetching and sending data)
 - **Frontend**: Thymeleaf (for rendering dynamic pages in Spring Boot)
@@ -28,15 +25,20 @@ File-Sharing-App/
 │── src/
 │   ├── main/
 │   │   ├── java/com/example/filesharing/
+│   │   │   ├── configration/   # mount the all workings
 │   │   │   ├── controllers/    # Handles API requests
 │   │   │   ├── services/       # Business logic
 │   │   │   ├── repositories/   # Database interaction
-│   │   │   ├── models/         # Entity models
+│   │   │   ├── models/         # models
+│   │   │   ├── entity/         # entity
+│   │   │   ├── exception/      # handle exceptions
 │   │   ├── resources/templates/
-│   │   │   ├── index.html      # Home page for file upload & sharing
-│   │   │   ├── login.html      # Authentication page
-│   │   ├── resources/static/css/
-│   │   │   ├── styles.css      # Custom styling for UI
+│   │   │   ├── home.html      # Home page for file upload & sharing
+│   │   │   ├── listfiles.html      # Authentication page
+|   |   |   ├── share-files.html     # to share file and download
+│   │   ├── resources/static
+│   │   │   ├── red.jpg   # image 1
+│   │   │   ├── blue.jpg  # image 2
 │   │   ├── resources/application.properties  # Configuration
 │── README.md                   # Project documentation (this file)
 ```
@@ -70,17 +72,20 @@ http://localhost:8080
 
 ## Screenshots
 
-### 1. Home Page - Upload and Share Files
-![Home Page](#)
+### 1. Entry dynamic Frontend page
+![Screenshot (322)](https://github.com/user-attachments/assets/1c39c942-ab67-4089-8fba-6a8ec699cb2b)
 
-### 2. Login with GitHub or Google
-![Authentication](#)
+### 2. Login with GitHub or Google or id - user && password - 1111
+![Screenshot (313)](https://github.com/user-attachments/assets/92029fe0-0353-424f-98ce-49de6be1358a)
 
 ### 3. File Management Interface
-![File Management](#)
+![Screenshot (316)](https://github.com/user-attachments/assets/397f48c4-8264-446f-845d-e460ff22da09)
 
 ### 4. Shareable File Link
-![File Sharing](#)
+![Screenshot (318)](https://github.com/user-attachments/assets/f144eba4-c514-4fd0-90e8-ade894808d47)
+
+### 5. Download it also
+![Screenshot (319)](https://github.com/user-attachments/assets/c1471eee-fe2f-4665-bf12-965066cdac83)
 
 ## Additional Features
 - **Drag & Drop Upload**: Easily upload files by dragging them into the upload box.
