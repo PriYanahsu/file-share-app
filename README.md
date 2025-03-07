@@ -81,6 +81,9 @@ http://localhost:8080
 ### 3. File Management Interface
 ![Screenshot (316)](https://github.com/user-attachments/assets/397f48c4-8264-446f-845d-e460ff22da09)
 
+### 4. File uploaded you can delete and share 
+![Screenshot (317)](https://github.com/user-attachments/assets/70102e82-353e-496e-b600-68fe82cfbf5c)
+
 ### 4. Shareable File Link
 ![Screenshot (318)](https://github.com/user-attachments/assets/f144eba4-c514-4fd0-90e8-ade894808d47)
 
